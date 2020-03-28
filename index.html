@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="icon" href="img/gameIcon.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <div id="1" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="2" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="3" onclick="playerMove(id)"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="4" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="5" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="6" onclick="playerMove(id)"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="7" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="8" onclick="playerMove(id)"></div>
+                </td>
+                <td>
+                    <div id="9" onclick="playerMove(id)"></div>
+                </td>
+            </tr>
+        </table>
+        <h1 id="gameStatusLabel"></h1>
+        <div id="undoResetDiv">
+            <button id="undoButton" onclick="undoMove()">Undo Move</button>
+            <button id="resetButton" onclick="resetGame()">Reset Game</button>
+        </div>
+        <script src="js/main.js"></script>
+    </body> 
+</html>

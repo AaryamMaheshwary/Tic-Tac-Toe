@@ -1,0 +1,55 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #000;
+}
+td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+td:nth-of-type(2) {
+    border-top-color: transparent;
+}
+td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+}
+div {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* padding: 0; */
+    background-size: 100%;
+    border: none;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#undoResetDiv {
+    text-align: center;
+    margin-bottom: 5px;
+}
+#resetButton, #undoButton {
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 228px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+#resetButton:hover, #undoButton:hover {
+    background-color: black;
+}
